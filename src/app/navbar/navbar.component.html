@@ -1,0 +1,24 @@
+<nav class="p-3 navbar">
+  <ul class="nav nav_pills">
+    <li *ngFor="let action of actions">
+      <button
+        (click)="setCurrentAction(action)"
+        [class]="action==currentAction?'btn btn-success ms-1':'btn btn-outline-success ms-1'"
+        routerLink="{{action.route}}">{{action.title}}
+        <i class="bi bi-{{action.icon}} text-success"></i>
+      </button>
+    </li>
+    <li *ngIf="loadingService.isLoading$ | async">
+      <div class="spinner-border text-primary ms-2" role="status" ></div>
+    </li>
+  </ul>
+  <ul class="nav nav-pills">
+    <li  *ngIf="appStateService.authState.isAuthenticated">
+      {{appStateService.authState.username}}
+      <button class="btn btn-success" (click)="logout()">Logout</button>
+    </li>
+    <li class="" *ngIf="!appStateService.authState.isAuthenticated">
+      <button class="btn btn-success" (click)="login()">Login</button>
+    </li>
+  </ul>
+</nav>

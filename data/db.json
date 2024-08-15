@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "role": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXQiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiU2FpZCIsImxhc3RuYW1lIjoiRWxoYWZ5YW5pIiwiZW1haWwiOiJzYWlkQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0._rv_E6V0puicm_VuhPmgbJ6NmOEkxZc2gq3FYD0OeUY"
+    },
+    {
+      "id": "user2",
+      "password": "MTIzNA==",
+      "role": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXQiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiU2FpZCIsImxhc3RuYW1lIjoiRWxoYWZ5YW5pIiwiZW1haWwiOiJzYWlkQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0.Du5vc1m6gPtxMI23Vg7aT0r6kkydiXh4uCikP9APz-g"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "role": [
+        "USER",
+        "ADMIN"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXQiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiU2FpZCIsImxhc3RuYW1lIjoiRWxoYWZ5YW5pIiwiZW1haWwiOiJzYWlkQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiJdfQ.ZJlpsPThaqnoD8m6c7NJvRtC8Umksg1Ho8lBH1D9OCk"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Computer",
+      "price": 4500,
+      "checked": true
+    },
+    {
+      "id": "2",
+      "name": "Printer",
+      "price": 1200,
+      "checked": false
+    },
+    {
+      "id": "3",
+      "name": "Phone",
+      "price": 5600,
+      "checked": false
+    },
+    {
+      "id": "4",
+      "name": "Phone1",
+      "price": 5600,
+      "checked": false
+    },
+    {
+      "id": "5",
+      "name": "Phone2",
+      "price": 5600,
+      "checked": false
+    },
+    {
+      "id": "7c58",
+      "name": "Smart 67",
+      "price": "4820",
+      "checked": true
+    },
+    {
+      "id": "1b38",
+      "name": "smart 54",
+      "price": "456",
+      "checked": true
+    }
+  ]
+}
